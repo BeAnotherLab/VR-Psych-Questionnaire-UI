@@ -206,10 +206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 2773822515600104943}
   _toggle: {fileID: 5264459015672207692}
-  _showSelectionRadialEvent: {fileID: 11400000, guid: fca922ce2ea0e27469c01e2ccaac7d83,
-    type: 2}
-  _hideSelectionRadialEvent: {fileID: 11400000, guid: a9b5696b04e2e4848aebe4889581a852,
-    type: 2}
+  _showSelectionRadialEvent: {fileID: 0}
+  _hideSelectionRadialEvent: {fileID: 0}
 --- !u!65 &2974813623055439316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -238,9 +236,8 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49,
-    type: 2}
-  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 0}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -389,10 +386,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 942806724225210394}
   _toggle: {fileID: 4183279349369296226}
-  _showSelectionRadialEvent: {fileID: 11400000, guid: fca922ce2ea0e27469c01e2ccaac7d83,
-    type: 2}
-  _hideSelectionRadialEvent: {fileID: 11400000, guid: a9b5696b04e2e4848aebe4889581a852,
-    type: 2}
+  _showSelectionRadialEvent: {fileID: 0}
+  _hideSelectionRadialEvent: {fileID: 0}
 --- !u!65 &3439580044915840204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -421,9 +416,8 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49,
-    type: 2}
-  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 0}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -978,7 +972,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 57b755cd9a1e24b4dbd9565472794c12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eda51cc98aa62554d8bc57475033436d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1609,10 +1603,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 636896132195376686}
   _toggle: {fileID: 8722014704182424159}
-  _showSelectionRadialEvent: {fileID: 11400000, guid: fca922ce2ea0e27469c01e2ccaac7d83,
-    type: 2}
-  _hideSelectionRadialEvent: {fileID: 11400000, guid: a9b5696b04e2e4848aebe4889581a852,
-    type: 2}
+  _showSelectionRadialEvent: {fileID: 0}
+  _hideSelectionRadialEvent: {fileID: 0}
 --- !u!65 &8051134625766717520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1641,9 +1633,8 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49,
-    type: 2}
-  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 0}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -1980,6 +1971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3945732365461505690, guid: 4e328670ff4b44f14ab770191e6b6670,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     - target: {fileID: 4859327565623360869, guid: 4e328670ff4b44f14ab770191e6b6670,
         type: 3}

@@ -365,7 +365,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 57b755cd9a1e24b4dbd9565472794c12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eda51cc98aa62554d8bc57475033436d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -675,7 +675,7 @@ PrefabInstance:
     - target: {fileID: 7745418754386233971, guid: 31a37600d588249d6981b2c2388eaf85,
         type: 3}
       propertyPath: m_Text
-      value: neutral
+      value: Not at all
       objectReference: {fileID: 0}
     - target: {fileID: 7745418754386233971, guid: 31a37600d588249d6981b2c2388eaf85,
         type: 3}
@@ -745,7 +745,7 @@ PrefabInstance:
     - target: {fileID: 964094921550951580, guid: 4e328670ff4b44f14ab770191e6b6670,
         type: 3}
       propertyPath: m_Text
-      value: Weiter
+      value: Next
       objectReference: {fileID: 0}
     - target: {fileID: 964094921944979729, guid: 4e328670ff4b44f14ab770191e6b6670,
         type: 3}
@@ -886,6 +886,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NextButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3945732365461505690, guid: 4e328670ff4b44f14ab770191e6b6670,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e328670ff4b44f14ab770191e6b6670, type: 3}

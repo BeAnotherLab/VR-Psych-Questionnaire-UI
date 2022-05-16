@@ -49,9 +49,6 @@ GameObject:
   - component: {fileID: 8345416278668479722}
   - component: {fileID: 988916450080124528}
   - component: {fileID: 5939126239763156942}
-  - component: {fileID: 8238921396134922246}
-  - component: {fileID: 975561026258134851}
-  - component: {fileID: 2408499495440291801}
   m_Layer: 0
   m_Name: Questionnaire
   m_TagString: Untagged
@@ -176,7 +173,7 @@ MonoBehaviour:
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
   _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 11400000, guid: 9cb7f9e88ef644644af24d7ad4033197, type: 2}
+  _event: {fileID: 0}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -207,9 +204,8 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 11400000, guid: 9e9c710454088e3458d357b85048602d,
-    type: 2}
-  _event: {fileID: 11400000, guid: 9e9c710454088e3458d357b85048602d, type: 2}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 0}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -224,87 +220,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8238921396134922246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2834379280832980167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf3049867acf4e98b57a68ca8ffdf10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showDebugFields: 0
-  _enableGizmoDebugging: 1
-  _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 11400000, guid: ca8fd7f8d546d4a209ab5b1348851dba, type: 2}
-  _response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2408499495440291801}
-        m_MethodName: SelfStateChanged
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _debugValue: 0
---- !u!114 &975561026258134851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2834379280832980167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf3049867acf4e98b57a68ca8ffdf10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showDebugFields: 0
-  _enableGizmoDebugging: 1
-  _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 11400000, guid: fa8ca749ca9ad4876827002f647bcaf6, type: 2}
-  _response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2408499495440291801}
-        m_MethodName: OtherStateChanged
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _debugValue: 0
---- !u!114 &2408499495440291801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2834379280832980167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2332dfe67263a4633a6596991e930997, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _previousSelfState: {fileID: 11400000, guid: 997773218c29c6647a388da294f32dd9, type: 2}
-  _previousOtherState: {fileID: 11400000, guid: d0addde542cc2804c8dc89ae4c145f72,
-    type: 2}
-  _questionnaireState: {fileID: 11400000, guid: cbf3233dc398144a3ac1cdfbc9bfb1ea,
-    type: 2}
 --- !u!1 &8340843253497785708
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,6 +263,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2705659802786345478}
     m_Modifications:
+    - target: {fileID: 57557104556704582, guid: d346a1a0b5f184a3da9edf94a68a07ee,
+        type: 3}
+      propertyPath: FallbackText
+      value: sehr viel
+      objectReference: {fileID: 0}
     - target: {fileID: 458420209878538949, guid: d346a1a0b5f184a3da9edf94a68a07ee,
         type: 3}
       propertyPath: m_Text
@@ -373,10 +293,20 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 780953027668619293, guid: d346a1a0b5f184a3da9edf94a68a07ee,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
     - target: {fileID: 4460823044666634623, guid: d346a1a0b5f184a3da9edf94a68a07ee,
         type: 3}
       propertyPath: m_Alpha
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6020929520515308865, guid: d346a1a0b5f184a3da9edf94a68a07ee,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     - target: {fileID: 6098451506981117522, guid: d346a1a0b5f184a3da9edf94a68a07ee,
         type: 3}
@@ -497,6 +427,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8839045559340330270, guid: d346a1a0b5f184a3da9edf94a68a07ee,
+        type: 3}
+      propertyPath: FallbackText
+      value: "\xFCberhaupt nicht (wir sind uns noch nie begegnet)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986033127473095975, guid: d346a1a0b5f184a3da9edf94a68a07ee,
+        type: 3}
+      propertyPath: FallbackText
+      value: 'Bitte geben Sie an, wie vertraut Sie sich kennen '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d346a1a0b5f184a3da9edf94a68a07ee, type: 3}
@@ -658,6 +598,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1096185189318237807, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729500239553636196, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801760507475741431, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
     - target: {fileID: 2277169059635782387, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -688,6 +643,36 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2557326716943653024, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870944210637477525, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138028107585493040, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256142198752251661, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430540753923438316, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3712945538164475691, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
     - target: {fileID: 3731118157348336220, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -777,6 +762,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611714110633000272, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055198673767324444, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370734071781523414, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458556132410163194, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Bitte geben Sie das Bild an, das Ihre emotionale N\xE4he zu der anderen
+        Person besser widerspiegelt"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6595619391497075290, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
       objectReference: {fileID: 0}
     - target: {fileID: 6703070283752319123, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -842,6 +853,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686886999401611612, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700710955072348181, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788137152385303327, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72a46c2ffd88a4788a6e1a992479517c, type: 3}
@@ -1003,6 +1029,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1096185189318237807, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729500239553636196, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801760507475741431, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
     - target: {fileID: 2277169059635782387, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1032,6 +1073,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2557326716943653024, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870944210637477525, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138028107585493040, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256142198752251661, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430540753923438316, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3712945538164475691, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
       objectReference: {fileID: 0}
     - target: {fileID: 3731118157348336220, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -1128,6 +1199,32 @@ PrefabInstance:
       propertyPath: _questionnaireState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5611714110633000272, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055198673767324444, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370734071781523414, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458556132410163194, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Bitte geben Sie das Bild an, das Ihre emotionale N\xE4he zu der anderen
+        Person besser widerspiegelt"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6595619391497075290, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
     - target: {fileID: 6703070283752319123, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1193,6 +1290,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8686886999401611612, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700710955072348181, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788137152385303327, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72a46c2ffd88a4788a6e1a992479517c, type: 3}
 --- !u!224 &3199662320972330850 stripped
@@ -1212,8 +1324,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _previouslyRegisteredEvent
       value: 
-      objectReference: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 4279992873759705905, guid: 8220c922fe3544e439a74fcf3fb99bc5,
         type: 3}
       propertyPath: m_Enabled
@@ -1223,8 +1334,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _previouslyRegisteredEvent
       value: 
-      objectReference: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 6293457311921586131, guid: 8220c922fe3544e439a74fcf3fb99bc5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1376,6 +1486,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4804160700560861522}
     m_Modifications:
+    - target: {fileID: 984615007625150506, guid: 41f7d766017804de09de248d8d249b00,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Wie stark war das gegenseitige Verst\xE4ndnis w\xE4hrend der Erfahrung"
+      objectReference: {fileID: 0}
     - target: {fileID: 2116271492351297396, guid: 41f7d766017804de09de248d8d249b00,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -1390,6 +1505,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094915342967872456, guid: 41f7d766017804de09de248d8d249b00,
+        type: 3}
+      propertyPath: FallbackText
+      value: gar nicht
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419775719028323594, guid: 41f7d766017804de09de248d8d249b00,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227694051784099788, guid: 41f7d766017804de09de248d8d249b00,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     - target: {fileID: 5737636642729303880, guid: 41f7d766017804de09de248d8d249b00,
         type: 3}
@@ -1501,6 +1631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MutualUnderstandingQuestion
       objectReference: {fileID: 0}
+    - target: {fileID: 6632907724539129478, guid: 41f7d766017804de09de248d8d249b00,
+        type: 3}
+      propertyPath: FallbackText
+      value: sehr viel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41f7d766017804de09de248d8d249b00, type: 3}
 --- !u!224 &8369766000685821959 stripped
@@ -1522,6 +1657,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3f24e5c64e6b543ebae46cf1757df58a,
         type: 2}
+    - target: {fileID: 530177068570306642, guid: ee21b6a89b53f4753830f97e01603b45,
+        type: 3}
+      propertyPath: FallbackText
+      value: Stimme nicht zu
+      objectReference: {fileID: 0}
     - target: {fileID: 1603234729917131310, guid: ee21b6a89b53f4753830f97e01603b45,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -1541,6 +1681,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Alpha
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433873752876126765, guid: ee21b6a89b53f4753830f97e01603b45,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894802296667810454, guid: ee21b6a89b53f4753830f97e01603b45,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     - target: {fileID: 4954376215784862226, guid: ee21b6a89b53f4753830f97e01603b45,
         type: 3}
@@ -1657,6 +1807,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6440665463047023717, guid: ee21b6a89b53f4753830f97e01603b45,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Manchmal f\xFChlte es sich so an als sei der gesehene K\xF6rper mein
+        eigener.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8284550736495456656, guid: ee21b6a89b53f4753830f97e01603b45,
+        type: 3}
+      propertyPath: FallbackText
+      value: Ich stimme zu
+      objectReference: {fileID: 0}
     - target: {fileID: 8669144879163979037, guid: ee21b6a89b53f4753830f97e01603b45,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
@@ -1768,6 +1929,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213242813590641916, guid: 147f9045c43fd4bcf98bae631cd4feb2,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     - target: {fileID: 4406136752134938646, guid: 147f9045c43fd4bcf98bae631cd4feb2,
         type: 3}
@@ -1920,9 +2086,30 @@ PrefabInstance:
       propertyPath: m_Text
       value: weiblich
       objectReference: {fileID: 0}
+    - target: {fileID: 6617493299761750217, guid: 147f9045c43fd4bcf98bae631cd4feb2,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Bitte geben Sie die Option an, die Ihre Geschlechtsidentit\xE4t besser
+        beschreibt"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7028275445131740271, guid: 147f9045c43fd4bcf98bae631cd4feb2,
+        type: 3}
+      propertyPath: FallbackText
+      value: weiblich
+      objectReference: {fileID: 0}
     - target: {fileID: 7629489734616173082, guid: 147f9045c43fd4bcf98bae631cd4feb2,
         type: 3}
       propertyPath: m_Text
+      value: "m\xE4nnlich"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8152346355013701149, guid: 147f9045c43fd4bcf98bae631cd4feb2,
+        type: 3}
+      propertyPath: FallbackText
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 8284313368992420211, guid: 147f9045c43fd4bcf98bae631cd4feb2,
+        type: 3}
+      propertyPath: FallbackText
       value: "m\xE4nnlich"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2055,10 +2242,32 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1502835975030167992, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089583822984024631, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Mit ausgepr\xE4gten K\xF6rpergrenzen f\xFChlt sich unser K\xF6rper deutlich
+        von anderen und der Umwelt abgesetzt. Durch unmerkliche K\xF6rpergrenzen f\xFChlen
+        wir uns stark mit anderen und der Umgebung verbunden."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303472520256266520, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Meine K\xF6rpergrenzen sind extrem ausgepr\xE4gt"
+      objectReference: {fileID: 0}
     - target: {fileID: 3420497988123379251, guid: 96eda59df7eca43a3823ec6bdbc13872,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180878929000538382, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Meine K\xF6rpergrenzen sind kaum wahrnehmbar"
       objectReference: {fileID: 0}
     - target: {fileID: 4845387612322116193, guid: 96eda59df7eca43a3823ec6bdbc13872,
         type: 3}
@@ -2089,6 +2298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _questionnaireState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402666150062997529, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     - target: {fileID: 8844366841042744710, guid: 96eda59df7eca43a3823ec6bdbc13872,
         type: 3}
@@ -2232,6 +2446,28 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1502835975030167992, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089583822984024631, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Mit ausgepr\xE4gten K\xF6rpergrenzen f\xFChlt sich unser K\xF6rper deutlich
+        von anderen und der Umwelt abgesetzt. Durch unmerkliche K\xF6rpergrenzen f\xFChlen
+        wir uns stark mit anderen und der Umgebung verbunden."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303472520256266520, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Meine K\xF6rpergrenzen sind extrem ausgepr\xE4gt"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180878929000538382, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: "Meine K\xF6rpergrenzen sind kaum wahrnehmbar"
+      objectReference: {fileID: 0}
     - target: {fileID: 4845387612322116193, guid: 96eda59df7eca43a3823ec6bdbc13872,
         type: 3}
       propertyPath: m_Text
@@ -2256,6 +2492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402666150062997529, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     - target: {fileID: 8844366841042744710, guid: 96eda59df7eca43a3823ec6bdbc13872,
         type: 3}
@@ -2284,6 +2525,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4804160700560861522}
     m_Modifications:
+    - target: {fileID: 1518437948568497324, guid: 3b89f23dc37de45a3a310caa4920e25e,
+        type: 3}
+      propertyPath: FallbackText
+      value: es hat sich zum schlechteren gewendet
+      objectReference: {fileID: 0}
     - target: {fileID: 2116271492351297396, guid: 3b89f23dc37de45a3a310caa4920e25e,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -2308,6 +2554,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: es hat sich zum Besseren gewendet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2983380745459954832, guid: 3b89f23dc37de45a3a310caa4920e25e,
+        type: 3}
+      propertyPath: FallbackText
+      value: es hat sich zum Besseren gewendet
+      objectReference: {fileID: 0}
+    - target: {fileID: 5136184359254148724, guid: 3b89f23dc37de45a3a310caa4920e25e,
+        type: 3}
+      propertyPath: FallbackText
+      value: neutral
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227694051784099788, guid: 3b89f23dc37de45a3a310caa4920e25e,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     - target: {fileID: 5737636642729303880, guid: 3b89f23dc37de45a3a310caa4920e25e,
         type: 3}
@@ -2427,6 +2688,17 @@ PrefabInstance:
     - target: {fileID: 5737636644160783583, guid: 3b89f23dc37de45a3a310caa4920e25e,
         type: 3}
       propertyPath: m_Text
+      value: "Haben Sie das Gef\xFChl, dass sich Ihre Beziehung zu der anderen Person
+        nach dieser Erfahrung ver\xE4ndert hat?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7251302366582146000, guid: 3b89f23dc37de45a3a310caa4920e25e,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692206676699419659, guid: 3b89f23dc37de45a3a310caa4920e25e,
+        type: 3}
+      propertyPath: FallbackText
       value: "Haben Sie das Gef\xFChl, dass sich Ihre Beziehung zu der anderen Person
         nach dieser Erfahrung ver\xE4ndert hat?"
       objectReference: {fileID: 0}
@@ -2555,6 +2827,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3270870457738295889, guid: ad0886d55688c4fd48c8673ee44aa15d,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
+      objectReference: {fileID: 0}
     - target: {fileID: 5261425356162288029, guid: ad0886d55688c4fd48c8673ee44aa15d,
         type: 3}
       propertyPath: m_NumberOfSteps
@@ -2574,6 +2851,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8198011408995867690, guid: ad0886d55688c4fd48c8673ee44aa15d,
+        type: 3}
+      propertyPath: FallbackText
+      value: Jahre alt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8666155447447351351, guid: ad0886d55688c4fd48c8673ee44aa15d,
+        type: 3}
+      propertyPath: FallbackText
+      value: Bitte geben Sie Ihr Alter an
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad0886d55688c4fd48c8673ee44aa15d, type: 3}

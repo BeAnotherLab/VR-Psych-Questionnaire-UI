@@ -77,7 +77,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ich stimme nicht zu
+  m_Text: Disagree
 --- !u!114 &3873040307096773616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,9 +332,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Sind Sie damit einverstanden, dass wir ein Video von Ihrer Teilnahme machen?
-    Ihr Gesicht wird durch das Headset verdeckt. Die Inhalte werden anonym durch einen
-    Algorithmus behandelt, der ausschlie\xDFlich Bewegungen analysiert."
+  m_Text: 'Do you agree if we take a video of your participation? Your face will be
+    hidden by the headset. The content is treated anonymously by an algorithm that
+    will exclusively analyze movements. '
 --- !u!114 &1476854615180328635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 57b755cd9a1e24b4dbd9565472794c12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eda51cc98aa62554d8bc57475033436d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -567,7 +567,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: e65a3917c02c746e9a61882ac578b28f, type: 2}
+      - m_Target: {fileID: 0}
         m_MethodName: Raise
         m_Mode: 6
         m_Arguments:
@@ -628,10 +628,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 1014110337571949513}
   _button: {fileID: 7246233779716267420}
-  _showSelectionRadialEvent: {fileID: 11400000, guid: fca922ce2ea0e27469c01e2ccaac7d83,
-    type: 2}
-  _hideSelectionRadialEvent: {fileID: 11400000, guid: a9b5696b04e2e4848aebe4889581a852,
-    type: 2}
+  _showSelectionRadialEvent: {fileID: 0}
+  _hideSelectionRadialEvent: {fileID: 0}
+  _disableOnSelectionComplete: 0
 --- !u!114 &3877786063402600269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,9 +646,8 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49,
-    type: 2}
-  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 0}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -881,7 +879,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: e65a3917c02c746e9a61882ac578b28f, type: 2}
+      - m_Target: {fileID: 0}
         m_MethodName: Raise
         m_Mode: 6
         m_Arguments:
@@ -942,10 +940,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 7771345615176120353}
   _button: {fileID: 7771345615176120540}
-  _showSelectionRadialEvent: {fileID: 11400000, guid: fca922ce2ea0e27469c01e2ccaac7d83,
-    type: 2}
-  _hideSelectionRadialEvent: {fileID: 11400000, guid: a9b5696b04e2e4848aebe4889581a852,
-    type: 2}
+  _showSelectionRadialEvent: {fileID: 0}
+  _hideSelectionRadialEvent: {fileID: 0}
+  _disableOnSelectionComplete: 0
 --- !u!114 &5255444114570276943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -961,9 +958,8 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49,
-    type: 2}
-  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 0}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -1055,7 +1051,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ich stimme zu
+  m_Text: Agree
 --- !u!114 &4100961880826188885
 MonoBehaviour:
   m_ObjectHideFlags: 0

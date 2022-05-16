@@ -142,7 +142,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4954376215784862230}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
   _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 11400000, guid: 3186148365f83442090e1a09b70837e4, type: 2}
+  _event: {fileID: 0}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -259,7 +259,8 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 0}
+  _previouslyRegisteredEvent: {fileID: 11400000, guid: 3f24e5c64e6b543ebae46cf1757df58a,
+    type: 2}
   _event: {fileID: 11400000, guid: 3f24e5c64e6b543ebae46cf1757df58a, type: 2}
   _response:
     m_PersistentCalls:
@@ -341,7 +342,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 57b755cd9a1e24b4dbd9565472794c12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eda51cc98aa62554d8bc57475033436d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -473,7 +474,7 @@ PrefabInstance:
     - target: {fileID: 964094921550951580, guid: 4e328670ff4b44f14ab770191e6b6670,
         type: 3}
       propertyPath: m_Text
-      value: Weiter
+      value: Next
       objectReference: {fileID: 0}
     - target: {fileID: 964094921944979729, guid: 4e328670ff4b44f14ab770191e6b6670,
         type: 3}
@@ -681,6 +682,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _disableOnSelectionComplete
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3945732365461505690, guid: 4e328670ff4b44f14ab770191e6b6670,
+        type: 3}
+      propertyPath: FallbackText
+      value: Weiter
       objectReference: {fileID: 0}
     - target: {fileID: 4859327565623360869, guid: 4e328670ff4b44f14ab770191e6b6670,
         type: 3}
@@ -1007,7 +1013,7 @@ PrefabInstance:
     - target: {fileID: 7745418753886854145, guid: 31a37600d588249d6981b2c2388eaf85,
         type: 3}
       propertyPath: m_Text
-      value: Stimme nicht zu
+      value: Not at all
       objectReference: {fileID: 0}
     - target: {fileID: 7745418753886854145, guid: 31a37600d588249d6981b2c2388eaf85,
         type: 3}
@@ -1058,7 +1064,7 @@ PrefabInstance:
     - target: {fileID: 7745418754007299769, guid: 31a37600d588249d6981b2c2388eaf85,
         type: 3}
       propertyPath: m_Text
-      value: Ich stimme zu
+      value: 'Very much so '
       objectReference: {fileID: 0}
     - target: {fileID: 7745418754007299769, guid: 31a37600d588249d6981b2c2388eaf85,
         type: 3}
