@@ -206,8 +206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 2773822515600104943}
   _toggle: {fileID: 5264459015672207692}
-  _showSelectionRadialEvent: {fileID: 0}
-  _hideSelectionRadialEvent: {fileID: 0}
+  _showSelectionRadialEvent: {fileID: 11400000, guid: 3cb126cd29e6b4077a4dc0f74b524c7b,
+    type: 2}
 --- !u!65 &2974813623055439316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -237,7 +237,7 @@ MonoBehaviour:
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
   _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 0}
+  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -386,8 +386,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 942806724225210394}
   _toggle: {fileID: 4183279349369296226}
-  _showSelectionRadialEvent: {fileID: 0}
-  _hideSelectionRadialEvent: {fileID: 0}
+  _showSelectionRadialEvent: {fileID: 11400000, guid: 3cb126cd29e6b4077a4dc0f74b524c7b,
+    type: 2}
 --- !u!65 &3439580044915840204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
   _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 0}
+  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -1344,9 +1344,8 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 11400000, guid: c66629fc8af0c4003b0522bffed86084,
-    type: 2}
-  _event: {fileID: 11400000, guid: c66629fc8af0c4003b0522bffed86084, type: 2}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 0}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -1603,8 +1602,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 636896132195376686}
   _toggle: {fileID: 8722014704182424159}
-  _showSelectionRadialEvent: {fileID: 0}
-  _hideSelectionRadialEvent: {fileID: 0}
+  _showSelectionRadialEvent: {fileID: 11400000, guid: 3cb126cd29e6b4077a4dc0f74b524c7b,
+    type: 2}
 --- !u!65 &8051134625766717520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1634,7 +1633,7 @@ MonoBehaviour:
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
   _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 0}
+  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -1827,6 +1826,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 1270c14450eda014c9c0de2354e74810,
         type: 3}
+    - target: {fileID: 964094921550951580, guid: 4e328670ff4b44f14ab770191e6b6670,
+        type: 3}
+      propertyPath: m_Text
+      value: Weiter
+      objectReference: {fileID: 0}
     - target: {fileID: 964094921944979729, guid: 4e328670ff4b44f14ab770191e6b6670,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
