@@ -376,9 +376,8 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 11400000, guid: c66629fc8af0c4003b0522bffed86084,
-    type: 2}
-  _event: {fileID: 11400000, guid: c66629fc8af0c4003b0522bffed86084, type: 2}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 11400000, guid: 4d2482f13c986cd43a9467f6c10b8315, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -3311,8 +3310,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _previouslyRegisteredEvent
       value: 
-      objectReference: {fileID: 11400000, guid: c66629fc8af0c4003b0522bffed86084,
-        type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e328670ff4b44f14ab770191e6b6670, type: 3}
 --- !u!224 &3789012762781942247 stripped
