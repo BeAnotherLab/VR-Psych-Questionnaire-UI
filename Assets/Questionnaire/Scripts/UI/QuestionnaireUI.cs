@@ -91,8 +91,8 @@ public class QuestionnaireUI : MonoBehaviour
     private void StartQuestionnaire(QuestionnaireState state)
     {
         _questionnaireState.Value = state;
-        if(state == QuestionnaireState.pre) _preSlides[0].GetComponent<PanelDimmer>().Show();
-        if(state == QuestionnaireState.post) _postSlides[0].GetComponent<PanelDimmer>().Show();
+        if (state == QuestionnaireState.pre) _preSlides[0].GetComponent<PanelDimmer>().Show();
+        if (state == QuestionnaireState.post) _postSlides[0].GetComponent<PanelDimmer>().Show();
         _showing = true;
     }
     

@@ -628,8 +628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 1014110337571949513}
   _button: {fileID: 7246233779716267420}
-  _showSelectionRadialEvent: {fileID: 0}
-  _hideSelectionRadialEvent: {fileID: 0}
+  _showSelectionRadialEvent: {fileID: 11400000, guid: 3cb126cd29e6b4077a4dc0f74b524c7b,
+    type: 2}
   _disableOnSelectionComplete: 0
 --- !u!114 &3877786063402600269
 MonoBehaviour:
@@ -646,8 +646,9 @@ MonoBehaviour:
   _showDebugFields: 0
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 0}
+  _previouslyRegisteredEvent: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49,
+    type: 2}
+  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -940,8 +941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_InteractiveItem: {fileID: 7771345615176120353}
   _button: {fileID: 7771345615176120540}
-  _showSelectionRadialEvent: {fileID: 0}
-  _hideSelectionRadialEvent: {fileID: 0}
+  _showSelectionRadialEvent: {fileID: 11400000, guid: 3cb126cd29e6b4077a4dc0f74b524c7b,
+    type: 2}
   _disableOnSelectionComplete: 0
 --- !u!114 &5255444114570276943
 MonoBehaviour:
@@ -959,7 +960,7 @@ MonoBehaviour:
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
   _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 0}
+  _event: {fileID: 11400000, guid: f702e427aa595a14fb9a03bd42051c49, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
