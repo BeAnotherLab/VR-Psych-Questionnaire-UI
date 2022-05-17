@@ -39,14 +39,14 @@ public class QuestionnaireUI : MonoBehaviour
         }
     }
 
-    public void StartPostQuestionnaire(bool start)  
+    public void StartPostQuestionnaire()  
     {
-        if (start) StartQuestionnaire(QuestionnaireState.post);  
+        StartQuestionnaire(QuestionnaireState.post);  
     }
     
-    public void StartPreQuestionnaire(bool start)
+    public void StartPreQuestionnaire()
     {
-        if (start) StartQuestionnaire(QuestionnaireState.pre);
+        StartQuestionnaire(QuestionnaireState.pre);
     }
 
     public void EndPreQuestionnaire()

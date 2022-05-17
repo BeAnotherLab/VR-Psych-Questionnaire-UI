@@ -46,9 +46,9 @@ GameObject:
   - component: {fileID: 4798578607988876300}
   - component: {fileID: 7048053968635201436}
   - component: {fileID: 1673414104}
-  - component: {fileID: 8345416278668479722}
-  - component: {fileID: 988916450080124528}
   - component: {fileID: 5939126239763156942}
+  - component: {fileID: 8872588719814590586}
+  - component: {fileID: 6982381245326538436}
   m_Layer: 0
   m_Name: Questionnaire
   m_TagString: Untagged
@@ -125,70 +125,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8345416278668479722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2834379280832980167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 791e3eca91bfc2e41b38477d0ecfaf1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showDebugFields: 0
-  _enableGizmoDebugging: 1
-  _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 11400000, guid: c66629fc8af0c4003b0522bffed86084, type: 2}
-  _response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7048053968635201436}
-        m_MethodName: StartPreQuestionnaire
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _debugValue: 0
---- !u!114 &988916450080124528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2834379280832980167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 791e3eca91bfc2e41b38477d0ecfaf1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showDebugFields: 0
-  _enableGizmoDebugging: 1
-  _debugColor: {r: 0, g: 1, b: 1, a: 1}
-  _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 0}
-  _response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7048053968635201436}
-        m_MethodName: StartPostQuestionnaire
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _debugValue: 0
 --- !u!114 &5939126239763156942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,12 +141,74 @@ MonoBehaviour:
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
   _previouslyRegisteredEvent: {fileID: 0}
-  _event: {fileID: 0}
+  _event: {fileID: 11400000, guid: 4d2482f13c986cd43a9467f6c10b8315, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7048053968635201436}
         m_MethodName: Init
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8872588719814590586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2834379280832980167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5758ca93461aeeb4589456a052b07d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showDebugFields: 0
+  _enableGizmoDebugging: 1
+  _debugColor: {r: 0, g: 1, b: 1, a: 1}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 11400000, guid: a4481b4749e07d14cb7ee0dfcf3d32d6, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7048053968635201436}
+        m_MethodName: StartPreQuestionnaire
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6982381245326538436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2834379280832980167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5758ca93461aeeb4589456a052b07d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showDebugFields: 0
+  _enableGizmoDebugging: 1
+  _debugColor: {r: 0, g: 1, b: 1, a: 1}
+  _previouslyRegisteredEvent: {fileID: 0}
+  _event: {fileID: 11400000, guid: b38b414b0dc6bfc4eac81214ab36fb71, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7048053968635201436}
+        m_MethodName: StartPostQuestionnaire
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -428,6 +426,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7506808886443077447, guid: d346a1a0b5f184a3da9edf94a68a07ee,
+        type: 3}
+      propertyPath: m_Text
+      value: Weiter
+      objectReference: {fileID: 0}
     - target: {fileID: 8839045559340330270, guid: d346a1a0b5f184a3da9edf94a68a07ee,
         type: 3}
       propertyPath: FallbackText
@@ -482,6 +485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 538609025987453406, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
       objectReference: {fileID: 0}
     - target: {fileID: 583990986435004139, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -598,10 +606,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1003826014168210448, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
+      objectReference: {fileID: 0}
     - target: {fileID: 1096185189318237807, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: FallbackText
       value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357824256136569035, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430616172961550758, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646187459107488733, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
       objectReference: {fileID: 0}
     - target: {fileID: 1729500239553636196, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -643,10 +671,25 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2283995930559864448, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310859183686269397, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
+      objectReference: {fileID: 0}
     - target: {fileID: 2557326716943653024, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: FallbackText
       value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 2615871958171311520, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
       objectReference: {fileID: 0}
     - target: {fileID: 2870944210637477525, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -657,6 +700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: FallbackText
       value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 3252668527247112556, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
       objectReference: {fileID: 0}
     - target: {fileID: 3256142198752251661, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -733,6 +781,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3781276898777699521, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789012762387983465, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277751104072477396, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
+      objectReference: {fileID: 0}
     - target: {fileID: 4539777222986648331, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -763,6 +826,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5128664293352445471, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
+      objectReference: {fileID: 0}
     - target: {fileID: 5611714110633000272, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: FallbackText
@@ -783,6 +851,11 @@ PrefabInstance:
       propertyPath: FallbackText
       value: "Bitte geben Sie das Bild an, das Ihre emotionale N\xE4he zu der anderen
         Person besser widerspiegelt"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501351028245794745, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
       objectReference: {fileID: 0}
     - target: {fileID: 6595619391497075290, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -854,6 +927,12 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7318739558337922618, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: "Bitte geben Sie das Bild an, das Ihre emotionale N\xE4he zu der anderen
+        Person besser widerspiegelt"
+      objectReference: {fileID: 0}
     - target: {fileID: 8686886999401611612, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: FallbackText
@@ -867,6 +946,11 @@ PrefabInstance:
     - target: {fileID: 8788137152385303327, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 9083930000197072984, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
       value: selbst
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -913,6 +997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 538609025987453406, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
       objectReference: {fileID: 0}
     - target: {fileID: 583990986435004139, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -1029,10 +1118,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1003826014168210448, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
+      objectReference: {fileID: 0}
     - target: {fileID: 1096185189318237807, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: FallbackText
       value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357824256136569035, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430616172961550758, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646187459107488733, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
       objectReference: {fileID: 0}
     - target: {fileID: 1729500239553636196, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -1074,10 +1183,25 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2283995930559864448, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310859183686269397, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
+      objectReference: {fileID: 0}
     - target: {fileID: 2557326716943653024, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: FallbackText
       value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 2615871958171311520, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
       objectReference: {fileID: 0}
     - target: {fileID: 2870944210637477525, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -1088,6 +1212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: FallbackText
       value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 3252668527247112556, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: selbst
       objectReference: {fileID: 0}
     - target: {fileID: 3256142198752251661, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -1164,6 +1293,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3781276898777699521, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789012762387983465, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: Weiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277751104072477396, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
+      objectReference: {fileID: 0}
     - target: {fileID: 4539777222986648331, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1194,6 +1338,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5128664293352445471, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
+      objectReference: {fileID: 0}
     - target: {fileID: 5409251784649573874, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: _questionnaireState
@@ -1219,6 +1368,11 @@ PrefabInstance:
       propertyPath: FallbackText
       value: "Bitte geben Sie das Bild an, das Ihre emotionale N\xE4he zu der anderen
         Person besser widerspiegelt"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501351028245794745, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: andere
       objectReference: {fileID: 0}
     - target: {fileID: 6595619391497075290, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
@@ -1290,6 +1444,12 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7318739558337922618, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
+      value: "Bitte geben Sie das Bild an, das Ihre emotionale N\xE4he zu der anderen
+        Person besser widerspiegelt"
+      objectReference: {fileID: 0}
     - target: {fileID: 8686886999401611612, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: FallbackText
@@ -1303,6 +1463,11 @@ PrefabInstance:
     - target: {fileID: 8788137152385303327, guid: 72a46c2ffd88a4788a6e1a992479517c,
         type: 3}
       propertyPath: FallbackText
+      value: selbst
+      objectReference: {fileID: 0}
+    - target: {fileID: 9083930000197072984, guid: 72a46c2ffd88a4788a6e1a992479517c,
+        type: 3}
+      propertyPath: m_Text
       value: selbst
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1328,6 +1493,11 @@ PrefabInstance:
     - target: {fileID: 4279992873759705905, guid: 8220c922fe3544e439a74fcf3fb99bc5,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475682674380131177, guid: 8220c922fe3544e439a74fcf3fb99bc5,
+        type: 3}
+      propertyPath: m_Alpha
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5255444114570276943, guid: 8220c922fe3544e439a74fcf3fb99bc5,
@@ -1506,6 +1676,16 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2116271492643831880, guid: 41f7d766017804de09de248d8d249b00,
+        type: 3}
+      propertyPath: m_Text
+      value: gar nicht
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116271492722436848, guid: 41f7d766017804de09de248d8d249b00,
+        type: 3}
+      propertyPath: m_Text
+      value: sehr viel
+      objectReference: {fileID: 0}
     - target: {fileID: 4094915342967872456, guid: 41f7d766017804de09de248d8d249b00,
         type: 3}
       propertyPath: FallbackText
@@ -1631,10 +1811,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: MutualUnderstandingQuestion
       objectReference: {fileID: 0}
+    - target: {fileID: 5737636644160783583, guid: 41f7d766017804de09de248d8d249b00,
+        type: 3}
+      propertyPath: m_Text
+      value: "Wie stark war das gegenseitige Verst\xE4ndnis w\xE4hrend der Erfahrung"
+      objectReference: {fileID: 0}
     - target: {fileID: 6632907724539129478, guid: 41f7d766017804de09de248d8d249b00,
         type: 3}
       propertyPath: FallbackText
       value: sehr viel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8300039132488840650, guid: 41f7d766017804de09de248d8d249b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Weiter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41f7d766017804de09de248d8d249b00, type: 3}
@@ -1676,6 +1866,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603234731147954090, guid: ee21b6a89b53f4753830f97e01603b45,
+        type: 3}
+      propertyPath: m_Text
+      value: Ich stimme zu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603234731304381714, guid: ee21b6a89b53f4753830f97e01603b45,
+        type: 3}
+      propertyPath: m_Text
+      value: Stimme nicht zu
       objectReference: {fileID: 0}
     - target: {fileID: 3281841351987545768, guid: ee21b6a89b53f4753830f97e01603b45,
         type: 3}
@@ -1837,6 +2037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: NextButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669144879558006928, guid: ee21b6a89b53f4753830f97e01603b45,
+        type: 3}
+      propertyPath: m_Text
+      value: Weiter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee21b6a89b53f4753830f97e01603b45, type: 3}
@@ -2259,6 +2464,11 @@ PrefabInstance:
       propertyPath: FallbackText
       value: "Meine K\xF6rpergrenzen sind extrem ausgepr\xE4gt"
       objectReference: {fileID: 0}
+    - target: {fileID: 3420497987997854654, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: m_Text
+      value: Weiter
+      objectReference: {fileID: 0}
     - target: {fileID: 3420497988123379251, guid: 96eda59df7eca43a3823ec6bdbc13872,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2463,6 +2673,11 @@ PrefabInstance:
       propertyPath: FallbackText
       value: "Meine K\xF6rpergrenzen sind extrem ausgepr\xE4gt"
       objectReference: {fileID: 0}
+    - target: {fileID: 3420497987997854654, guid: 96eda59df7eca43a3823ec6bdbc13872,
+        type: 3}
+      propertyPath: m_Text
+      value: Weiter
+      objectReference: {fileID: 0}
     - target: {fileID: 4180878929000538382, guid: 96eda59df7eca43a3823ec6bdbc13872,
         type: 3}
       propertyPath: FallbackText
@@ -2554,6 +2769,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: es hat sich zum Besseren gewendet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116271493101278778, guid: 3b89f23dc37de45a3a310caa4920e25e,
+        type: 3}
+      propertyPath: m_Text
+      value: neutral
       objectReference: {fileID: 0}
     - target: {fileID: 2983380745459954832, guid: 3b89f23dc37de45a3a310caa4920e25e,
         type: 3}
@@ -2696,6 +2916,11 @@ PrefabInstance:
       propertyPath: FallbackText
       value: Weiter
       objectReference: {fileID: 0}
+    - target: {fileID: 8300039132488840650, guid: 3b89f23dc37de45a3a310caa4920e25e,
+        type: 3}
+      propertyPath: m_Text
+      value: Weiter
+      objectReference: {fileID: 0}
     - target: {fileID: 8692206676699419659, guid: 3b89f23dc37de45a3a310caa4920e25e,
         type: 3}
       propertyPath: FallbackText
@@ -2827,6 +3052,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3046924239983294786, guid: ad0886d55688c4fd48c8673ee44aa15d,
+        type: 3}
+      propertyPath: m_Text
+      value: Bitte geben Sie Ihr Alter an
+      objectReference: {fileID: 0}
     - target: {fileID: 3270870457738295889, guid: ad0886d55688c4fd48c8673ee44aa15d,
         type: 3}
       propertyPath: FallbackText
@@ -2851,6 +3081,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153874042205347151, guid: ad0886d55688c4fd48c8673ee44aa15d,
+        type: 3}
+      propertyPath: m_Text
+      value: Jahre alt
       objectReference: {fileID: 0}
     - target: {fileID: 8198011408995867690, guid: ad0886d55688c4fd48c8673ee44aa15d,
         type: 3}
